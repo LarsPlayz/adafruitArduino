@@ -3,7 +3,7 @@ from Adafruit_IO import Client
 import pyfirmata
 
 ADAFRUIT_IO_USERNAME = "toot123"
-ADAFRUIT_IO_KEY = "aio_pwBZ2057cWM6VRrk1xfzvrU0nQWg"
+ADAFRUIT_IO_KEY = "aio_upZF20heIl39iBDvJ0oGj4M8sVRH"
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 board = pyfirmata.Arduino('COM4')
