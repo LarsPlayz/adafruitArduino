@@ -7,7 +7,7 @@ from datetime import datetime
 
 #kobler til Adafruit dashbordet
 ADAFRUIT_IO_USERNAME = "toot123"
-ADAFRUIT_IO_KEY = ${{ secrets.ADAFRUITKEY }}
+ADAFRUIT_IO_KEY = "adafruitkey"
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 #Kobler til MySQL databasen
