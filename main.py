@@ -11,7 +11,7 @@ def connect():
     global analog_input, digital, aio, mycursor, board, mydb
     # kobler til Adafruit dashbordet
     ADAFRUIT_IO_USERNAME = "toot123"
-    ADAFRUIT_IO_KEY = "adafruitkey"
+    ADAFRUIT_IO_KEY = "aio_pgMr95nIXYLlV5hSj6U8OMhJvS8v"
     aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
     # Kobler til Arduino

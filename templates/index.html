@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title></title>
+    </head>
+        <body>
+            <center>
+                <style>
+                 td {
+                        width: 150px;
+                        border: 1px solid black;
+                        padding: 5px;
+                      }
+                </style>
+                <table>
+                  <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Value</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                     {% for row in data %}
+                            <tr>
+                                <td>{{row[1]}}</td>
+                                <td>{{row[2]}}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </center>
+        </body>
+</html>
